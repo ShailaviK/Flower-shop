@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+:root {
+   --main-bg-color:#c8367f;
+} *{
+}
+.heading{
+   color: #570d2f;
+} header{
+   background: var(--main-bg-color);
+   font-family: 'Borel', cursive;
+}
+nav{
+   display: flex;
+}
+.logo{
+   margin-left: 10px;
+   display: flex;
+   align-items: center;
+}
+nav ul{
+   height: 110px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+*{padding: 0;
+margin: 0;}
+
+ nav ul li{
+   list-style: none;
+   padding: 0 30px;
+}
+nav ul li a {
+   color:rgb(249, 244, 235);
+   text-decoration: none;
+}
+nav ul li a:hover {
+   color:rgb(109, 17, 58);
+   font-weight: 100;
+}
+.search{
+   display: flex;
+   align-items: center;
+}
+.search input{
+   width: 400px;
+   height: 30px;
+   margin-top: 40px;
+   display: flex;
+   align-items: center;
+   font-family: 'Borel', cursive;
+   padding-left: 8px;
+   padding-top: 4px;
+   margin-bottom: 40px;
+   border-radius: 4px;
+   border-color: bisque;
+   color: #df82ac;
+}
+.slider{
+       margin: auto;
+       margin-left: 100px;
+       padding: 30px;
+}
+.heading{
+   font-family: 'Borel', cursive;
+ 
+ }
+ .contents{
+   height: 1000px;
+   display: flex;
+   justify-content: center;
+   font-family: 'Borel', cursive;
+   flex-wrap: wrap;
+} .flowers{
+   background-color: #f4dae6;
+   width: 250px;
+   height: 450px;
+   margin: 25px;
+   border-radius: 15px;
+}
+.flowers-image{
+   background-color: #d44183;
+   height: 330px;
+   margin-bottom: 1px;
+   background-size: cover;
+   border-radius: 15px 15px 0 0 ;
+}
+.flowers-1{
+   background-image:
+url(image);
+}
+.flowers-2{
+   background-image:
+url(image);
+}
+.flowers-3{
+   background-image:
+url(image);
+}
+
+  .flowers-4{
+   background-image:
+url(image);
+}
+.flowers-5{
+   background-image:
+url(image);
+}
+.flowers-6{
+   background-image:
+url(image);
+}
+.flowers-7{
+   background-image:
+url(image);
+}
+.flowers-8{
+   background-image:
+url(image);
+}
+.flowers a{
+   background-color: #c73c7b;
+   color: aliceblue;
+   padding: 15px;
+   display: block;
+   border-radius: 0 0 15px 15px;
+   text-align: center;
+   margin-bottom: 40px;
+
+ }
+ .flowers:hover{
+   background-color: #a46280;
+}
+.about{
+   text-align: center;
+   margin: 50px;
+   background-color: #e591b8;
+   color: aliceblue;
+   padding: 15px;
+   border-radius: 15px;
+   font-family: 'Borel', cursive;
+}
+.contact{
+   text-align: center;
+   margin: 50px;
+   background-color: #e591b8;
+   color: aliceblue;
+   padding: 15px;
+   border-radius: 15px;
+   font-family: 'Borel', cursive;
+}
+footer{
+   height: 12vh;
+   background-color: var(--main-bg-color);
+   color: rgb(255, 251, 246);
+   font-family: 'Borel', cursive;
+   margin-top: 40px;
+}
+.flex-all-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.btn{
+   margin-left: 13px;
+ 
+background-color: #e7b3ca;
+   font-family: 'Borel', cursive;
+   color: rgb(204, 38, 113);
+   border-color: beige;
+   border-radius: 7px;
+}
